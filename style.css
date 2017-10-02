@@ -1,33 +1,40 @@
 *{
   box-sizing: border-box; 
 }
+body
+{
+  background-image: url("./img/backgroud.jpg");
+}
 hr.bar{
   border: 2px solid #ff6600;
   width: 80px;
 }
 .menu{
   float: right;
+
 }
 .container{
-  border: 1px solid #ccc;
+  /*border: 1px solid #ccc;*/
   width: 800px;
   margin: 0 auto;
+
 }
 /*title*/
 #nav 
 {
   background-color: #ff6600; 
   width: 100%;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   position: fixed;
   top: 0;
   left: 0;
   z-index:100;
+  opacity: 0.8
 }
 
 #content
 {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   position: relative;
   top:74px;
   padding: 15px;
@@ -35,11 +42,11 @@ hr.bar{
 
 .container
 {
-  border: 1px solid #ccc
+  /*border: 1px solid #ccc*/
 }
 #about, #my-work, #contact-me
 {
-  border:1px solid yellow;
+  /*border:1px solid yellow;*/
 
 }
 
@@ -69,7 +76,7 @@ a
 }
 li:hover
 {
-  border: 1px solid #ff6600;
+  /*border: 1px solid #ff6600;*/
   background-color :#fff;
 }
 
@@ -87,16 +94,27 @@ li:hover a
 }
 #my-avatar img
 {
-  width: 200px;
+  width:250px;
 }
 h1
 {
   margin-bottom: 0; 
   text-align: center;
+  
+}
+#my-work h1{
+   opacity: 0.8;
 }
 #about h1{
   margin-bottom: 0; 
   text-align: left;
+
+}
+#about
+{
+  border-radius: 8px;
+  background-color:   #FFFFFF ;
+  opacity: 0.8;
 }
 h3
 {
@@ -106,6 +124,8 @@ table
 {
   font-size: 14px;
   text-align: left;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+
 }
 th, td
 {
@@ -113,12 +133,17 @@ th, td
 }
 td
 {
-  color: #666;
-  padding-left: 10px
+  color: #000000 ;
+  padding-left: 10px;
+
+
+
 }
 th
 {
-  border: 0.5px solid #eee;
+  /*border: 0.5px solid #eee;*/
+  opacity: 0.8;
+
 }
 
 /*my work*/
@@ -135,15 +160,17 @@ th
 .item img
 {
   width:100%;
+  opacity: 0.7;
 }
 .item-info
 {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   background-color: rgba(255,255,255,.8);
-  
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+
   position: absolute;  
   top: 0;
-  left: 0
+  left: 0;
 
   width: 100%;
   height: 100%;
@@ -157,15 +184,19 @@ th
 .item-info:hover{
   opacity: 1;
 }
+
 #contact-me{
-  border: 1px solid green; /*標示用*/
+  /*border: 1px solid green; /*標示用*/
+  margin-top: -20px;
 }
 
+
 form.contact-form{
-  border: 1px solid red; /*標示用*/
+  /*border: 1px solid red; /*標示用*/
   width:50%;
   margin: 0 auto;
-
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  opacity: 0.8;
 }
 
 /*label input*/
@@ -174,9 +205,9 @@ form.contact-form{
 }
 
 .form-row input, .form-row textarea {
-  border-radius: 3px;
+  border-radius: 4px;
   width: 100%;
-  border: 1px solid #D6D9DC;
+  /*border: 1px solid #D6D9DC;*/
   padding: 7px;
 }
 
